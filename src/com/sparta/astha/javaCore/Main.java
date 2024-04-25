@@ -35,6 +35,8 @@ public class Main {
 
         System.out.println(HashMapProblemHackerrank.calculateArea(new int[]{1,2,3},"abc" ));
 
+        System.out.println(LeetcodeRemoveDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+
 
         //MapProblemsCodingBat.mapBully({"a": "candy", "b": "dirt"});
     }
