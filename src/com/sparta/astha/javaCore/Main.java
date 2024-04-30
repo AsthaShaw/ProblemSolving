@@ -37,6 +37,13 @@ public class Main {
 
         System.out.println(LeetcodeRemoveDuplicates.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
 
+        System.out.println(LeetcodeAddTwoNumsLinkedList.addTwoNumbers(new ListNode(1, new ListNode(2)), new ListNode(5, new ListNode(6))));
+
+        System.out.println(InterviewQuestions.calculateLevels());
+
+
+
+
 
         //MapProblemsCodingBat.mapBully({"a": "candy", "b": "dirt"});
     }

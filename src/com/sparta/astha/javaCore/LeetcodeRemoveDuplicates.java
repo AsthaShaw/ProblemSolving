@@ -17,22 +17,22 @@ public class LeetcodeRemoveDuplicates {
 
         //First way
 
-      // uniqueElements=  (int)Arrays.stream(nums).distinct().count();
+      uniqueElements=  (int)Arrays.stream(nums).distinct().count();
 
 
         //2nd way
-
-          HashSet<Integer> hashSet=new HashSet<>();
-
-        for(int num:nums){
-            hashSet.add(num);
-        }
-         int i=0;
-        for(int num:hashSet){
-             nums[i++]=num;
-        }
-
-        uniqueElements=hashSet.size();
+//
+//          HashSet<Integer> hashSet=new HashSet<>();
+//
+//        for(int num:nums){
+//            hashSet.add(num);
+//        }
+//         int i=0;
+//        for(int num:hashSet){
+//             nums[i++]=num;
+//        }
+//
+//        uniqueElements=hashSet.size();
 
         return uniqueElements;
     }
