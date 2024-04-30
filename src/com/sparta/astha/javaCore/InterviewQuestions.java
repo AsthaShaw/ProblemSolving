@@ -8,6 +8,51 @@ import java.util.Scanner;
 
 public class InterviewQuestions {
 
+    /* An input consists of different type elements. ex: [5,6,new Item[3], new Item[new Item[2],4],9] .
+     *  Evaluate the elements: 5+6+2*3+3*2+2*4+9
+     * */
+
+    //JavaScript
+
+    /*
+    values= [5,6,[3], [[2],4],9]
+console.log(values)
+let calculate=0;
+//let multiplier=1;
+for (const obj of values){
+    if(typeof(obj)==='number'){
+        calculate+=obj;
+    }
+    else if(typeof(obj)==='object'){
+        //multiplier+=1;
+        for(i=0;i<obj.length;i++){
+            if(typeof(obj[i])==='object'){
+                //multiplier+=1;
+                for(j=0;j<obj[i].length;j++){
+                    if(typeof(obj[i][j])==='number'){
+                    calculate+=3*obj[i][j];
+            }
+        }
+    }
+    else if(typeof(obj[i])==='number'){
+                calculate+=2*obj[i]
+                console.log("obj[i]",obj[i])
+            }
+
+        }
+    }
+//console.log(typeof(obj))
+console.log(calculate)
+
+}
+	//Evaluate the elements: 5+6+2*3+3*2+2*4+9
+
+
+
+     */
+
+
+
     public static int calculateLevels() {
         int calculate = 0;
         List<Object> list1 = new ArrayList<>();
