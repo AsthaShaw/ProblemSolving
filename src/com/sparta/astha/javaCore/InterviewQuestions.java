@@ -107,7 +107,7 @@ console.log(calculate)
             arr[i]=in.nextInt();
         }
 
-        in.close();//why?
+        in.close();//Better for release the resources
 
         System.out.println("Your array elements are ::"+ Arrays.toString(arr));
         System.out.println("Smallest Element from its neighbours::"+smallestElement(arr));
