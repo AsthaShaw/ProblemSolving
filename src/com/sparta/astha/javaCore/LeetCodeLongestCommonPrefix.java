@@ -42,6 +42,10 @@ public class LeetCodeLongestCommonPrefix {
     }
 
 
+
+
+
+
     //Faster one done my someone in leetcode???
 
     class Solution {
