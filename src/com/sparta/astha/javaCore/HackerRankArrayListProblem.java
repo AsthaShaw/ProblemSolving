@@ -56,13 +56,15 @@ public class HackerRankArrayListProblem {
             y=in.nextInt();
             System.out.println(x+" "+y);
             try{
-            if(TwoDArrayList.get(x-1).get(y-1)!=null) {
+            //if(TwoDArrayList.get(x-1).get(y-1)!=null) {
                 output.add(TwoDArrayList.get(x - 1).get(y - 1));
-            }}catch(Exception e){
+            }catch(Exception e){
                 output.add("ERROR!");
             }
 
         }
+
+        in.close();
 
         output.forEach(System.out::println);
 
