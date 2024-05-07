@@ -7,6 +7,7 @@ Added
 4. Longest Common Prefix- https://leetcode.com/problems/longest-common-prefix/description/
 5. Roman Numerals to Integers https://leetcode.com/problems/roman-to-integer/description/
 6. Valid Parantheses https://leetcode.com/problems/valid-parentheses/
+7. Palindrome of a Number https://leetcode.com/problems/palindrome-number/description/
 
 <h3>Hackerrank</h3>
 2. PDFViewer
