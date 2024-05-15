@@ -8,6 +8,7 @@ Added
 5. Roman Numerals to Integers https://leetcode.com/problems/roman-to-integer/description/
 6. Valid Parantheses https://leetcode.com/problems/valid-parentheses/
 7. Palindrome of a Number https://leetcode.com/problems/palindrome-number/description/
+8. Sqrt(x)- https://leetcode.com/problems/sqrtx/submissions/1256999935/?envType=study-plan-v2&envId=top-interview-150
 
 <h3>Hackerrank</h3>
 2. PDFViewer
