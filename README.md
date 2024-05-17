@@ -9,6 +9,7 @@ Added
 6. Valid Parantheses https://leetcode.com/problems/valid-parentheses/
 7. Palindrome of a Number https://leetcode.com/problems/palindrome-number/description/
 8. Sqrt(x)- https://leetcode.com/problems/sqrtx/submissions/1256999935/?envType=study-plan-v2&envId=top-interview-150
+9. LinkedList Cycle -https://leetcode.com/problems/linked-list-cycle/ - Floyd's Tortoise and Hare algorithm Implementation - slow and fast pointers
 
 <h3>Hackerrank</h3>
 2. PDFViewer
