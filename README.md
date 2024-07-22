@@ -12,7 +12,7 @@ Added
 - Floyd's Tortoise and Hare algorithm Implementation - slow and fast pointers
 9. LinkedList Cycle -https://leetcode.com/problems/linked-list-cycle/ 
 10. Middle of the LinkedList-https://leetcode.com/problems/middle-of-the-linked-list/description/
-
+11. AddTwoBinary-https://leetcode.com/problems/add-binary/description/
 <h3>Hackerrank</h3>
 2. PDFViewer
 3. Java ArrayList Problem https://www.hackerrank.com/challenges/java-arraylist/problem
