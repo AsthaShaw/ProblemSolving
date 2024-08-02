@@ -6,6 +6,8 @@ public class SingleNumber {
 
     public static void main(String[] args) {
         System.out.println(singleNumber(new int[]{2,2,1}));
+        System.out.println(singleNumberMoreBetterLeetcodeSolution(new int[]{2,2,1}));
+        System.out.println(singleNumberBestSolutionUsingLeetcode(new int[]{2,2,1}));
     }
 
     public static  int singleNumber(int[] nums) {
@@ -46,7 +48,7 @@ public class SingleNumber {
 
     }
 
-    public static  int singleNumberMoreBetterSolution(int[] nums) {
+    public static  int singleNumberMoreBetterLeetcodeSolution(int[] nums) {
 
         Arrays.sort(nums);
         if(nums.length==1){
@@ -61,7 +63,24 @@ public class SingleNumber {
     }
 
     //XOR concept-well explained-https://www.geeksforgeeks.org/bitwise-xor-operator-in-programming/
+//    Explanation: 1’s and 2’s appear twice, only 4 appears exactly once. So the answer is 4.
+//    Concept of XOR:
+//    XOR of zero and some bit returns that bit i.e. x^0 = x...
+//    XOR of two same bits returns 0 i.e. x^x = 0...
+//    And, x^y^x = (x^x)^y = 0^y = y...
+//    XOR all bits together to find the unique number.
+
+    public static  int singleNumberBestSolutionUsingLeetcode(int[] nums){
+       int result=0;
+       for(int num:nums){
+           result^=num;
+       }
+       return result;
     }
+    }
+
+
+
 
 
 
